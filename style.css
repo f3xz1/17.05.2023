@@ -1,0 +1,58 @@
+body {
+  padding-top: 10em;
+  align-items: center;
+  text-align: center;
+}
+
+.ItemInput {
+  border-radius: 3px;
+  margin: 0;
+  padding: 0.1em;
+  border-color: gray;
+  height: 2em;
+  width: 40em;
+  font-size: large;
+}
+
+.AddItembtn {
+  background-color: rgb(36, 193, 22);
+  border: 2px;
+  border-radius: 5px;
+  margin: 0;
+  padding: 0;
+  color: white;
+  width: 8em;
+}
+
+.AddItembtn:hover {
+  background-color: rgb(30, 159, 18);
+}
+
+.ToDoItem {
+  width: 40em;
+  justify-content: space-between;
+  display: flex;
+  margin: 0 auto;
+  margin-top: 2em;
+  padding: 1em;
+  box-shadow: rgb(169, 169, 169) 0px 1px 7px 7px;
+}
+
+.TodoConteiner {
+  margin: 13em;
+  align-items: center;
+  text-align: center;
+}
+
+.ToDoRemoveBtn {
+  border: none;
+  background-color: transparent;
+}
+
+.ToDoRemoveBtn:hover {
+  background-color: rgb(230, 230, 230);
+  transform: scale(1.2);
+}
+
+.ToDoCheck {
+}
